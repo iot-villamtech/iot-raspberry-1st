@@ -30,7 +30,7 @@ class App:
 
 
 root = Tk()
-root.wm_title('RasPi.vn-Dieu Khien Do Sang LED')
+root.wm_title('IOT-VILLAMTECH-Dieu Khien Do Sang LED')
 app = App(root)
 root.geometry("600x100+0+0")
 try:
