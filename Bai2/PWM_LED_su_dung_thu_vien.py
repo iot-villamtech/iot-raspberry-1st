@@ -6,7 +6,7 @@ pin = 14  #khai bao pin out
 GPIO.setmode(GPIO.BCM)  #khai bao kieu pin
 GPIO.setup(pin, GPIO.OUT)  #setup pin output
 
-pwm = GPIO.PWM(pin, 500)  #khai bao pwm, pin = 18, tan so 500Hz
+pwm = GPIO.PWM(pin, 500)  #khai bao pwm, pin = 14, tan so 500Hz
 pwm.start(0)  #bat dau voi duty cycle = 0
 
 # PWM led sang dan
