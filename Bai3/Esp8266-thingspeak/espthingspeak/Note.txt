@@ -1,0 +1,8 @@
+Neu ESP có hien tung xuat mã hex thì kiem tra:
+1, baudRate
+2, Loi ESP, check -> dùng blink led.
+
+Neu gia tri tra ve bang -1:
+1, kiem tra day dan
+2, kiem tra ket noi esp-dht
+3, kiem tra lai thu vien
