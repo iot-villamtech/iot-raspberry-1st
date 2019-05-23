@@ -32,8 +32,9 @@ try:
 
         if old_state == True:  #nut duoc bam
             state_led = ~state_led
+            
         print(state_led)  # Xuat trang thai ra man hinh
-        GPIO.output(led, state_led)
+        GPIO.output(led, state_led) #bat/tat led
 
 except KeyboardInterrupt:
     GPIO.cleanup()
